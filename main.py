@@ -49,6 +49,8 @@ if proceed_shopping == "yes":
     print("Ketik stop untuk mengakhiri transaksi")
     
     shopping_list = []
+    
+#looping
     while True:
         show_items = input("Pilih menu (all, promo, stop): ")
         if show_items.lower() == "all":
